@@ -1,0 +1,96 @@
+ros-kinetic-velodyne-pointcloud (1.2.1-0xenial) xenial; urgency=high
+
+  * Fix compile warning for "Wrong initialization order".
+  * Fix unit tests for transform nodelet.
+  * Provide dynamic reconfiguration for TransformNodelet (#78 <https://github.com/ros-drivers/velodyne/pull/78>).
+  * Allow ``min_range`` as short as 0.4m.
+  * Add VLP-16 support (#44 <https://github.com/ros-drivers/velodyne/pull/44>).
+  * Fix several errors in point computations (#43 <https://github.com/ros-drivers/velodyne/pull/43>, #47 <https://github.com/ros-drivers/velodyne/pull/47>, #50 <https://github.com/ros-drivers/velodyne/issue/50>,
+    #55 <https://github.com/ros-drivers/velodyne/pull/55>, #76 <https://github.com/ros-drivers/velodyne/pull/76>).
+  * Fix several calibration file problems (#41 <https://github.com/ros-drivers/velodyne/pull/41>, #42 <https://github.com/ros-drivers/velodyne/pull/42>).
+  * Contributors: Bo Li, Patrick Hussey, William Woodall, Kun Li,
+    lemiant, Jose Luis Blanco-Claraco, Alexander Schaefer, François
+    Pomerleau, Andreas Wachaja, Jack O'Quin
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Mon, 18 Sep 2017 23:00:00 -0000
+
+ros-kinetic-velodyne-pointcloud (1.2.0-0xenial) xenial; urgency=high
+
+  * velodyne_pointcloud: remove model-dependent "constants" from
+    rawdata.h (#28 <https://github.com/ros-drivers/velodyne/issues/28>)
+  * velodyne_pointcloud: change default min_range to 0.9 meters (#25 <https://github.com/ros-drivers/velodyne/issues/25>)
+  * Added support for YAML-CPP 0.5+ (#23 <https://github.com/ros-drivers/velodyne/pull/23>).
+  * Add dynamic_reconfigure feature.
+  * Add angular limits to the output point cloud, useful for omitting
+    part of it. (#22 <https://github.com/ros-drivers/velodyne/pull/22>).
+  * Contributors: Jack O'Quin, Scott K Logan, Thomas Solatges
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Tue, 05 Aug 2014 23:00:00 -0000
+
+ros-kinetic-velodyne-pointcloud (1.1.2-0xenial) xenial; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Tue, 05 Nov 2013 00:00:00 -0000
+
+ros-kinetic-velodyne-pointcloud (1.1.1-0xenial) xenial; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Mon, 29 Jul 2013 23:00:00 -0000
+
+ros-kinetic-velodyne-pointcloud (1.1.0-0xenial) xenial; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Mon, 15 Jul 2013 23:00:00 -0000
+
+ros-kinetic-velodyne-pointcloud (1.0.1-0xenial) xenial; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Fri, 14 Jun 2013 23:00:00 -0000
+
+ros-kinetic-velodyne-pointcloud (1.0.0-0xenial) xenial; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Thu, 13 Jun 2013 23:00:00 -0000
+
+ros-kinetic-velodyne-pointcloud (0.9.2-0xenial) xenial; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Sun, 07 Jul 2013 23:00:00 -0000
+
+ros-kinetic-velodyne-pointcloud (0.9.1-0xenial) xenial; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Mon, 04 Jun 2012 23:00:00 -0000
+
+ros-kinetic-velodyne-pointcloud (0.9.0-0xenial) xenial; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Mon, 02 Apr 2012 23:00:00 -0000
+
+ros-kinetic-velodyne-pointcloud (0.2.6-0xenial) xenial; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Wed, 23 Feb 2011 00:00:00 -0000
+
+ros-kinetic-velodyne-pointcloud (0.2.5-0xenial) xenial; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Fri, 19 Nov 2010 00:00:00 -0000
+
+ros-kinetic-velodyne-pointcloud (0.2.0-0xenial) xenial; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Mon, 16 Aug 2010 23:00:00 -0000
+
+
