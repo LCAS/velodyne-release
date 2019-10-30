@@ -21,5 +21,5 @@ tracks:
     release_tag: :{version}
     ros_distro: kinetic
     vcs_type: git
-    vcs_uri: https://github.com/OrebroUniversity/velodyne.git
+    vcs_uri: https://github.com/dan11003/velodyne_pointcloud_oru
     version: :{auto}
