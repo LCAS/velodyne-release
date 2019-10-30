@@ -1,0 +1,12 @@
+Source: ros-kinetic-velodyne-pointcloud-oru
+Section: misc
+Priority: optional
+Maintainer: Daniel Adolfsson <daniel.adolfsson@oru.se>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libyaml-cpp-dev, ros-kinetic-angles, ros-kinetic-catkin, ros-kinetic-diagnostic-updater, ros-kinetic-dynamic-reconfigure, ros-kinetic-nodelet, ros-kinetic-roscpp, ros-kinetic-roslaunch, ros-kinetic-roslib, ros-kinetic-roslint, ros-kinetic-rostest, ros-kinetic-rosunit, ros-kinetic-sensor-msgs, ros-kinetic-tf, ros-kinetic-tf2-ros, ros-kinetic-velodyne-driver, ros-kinetic-velodyne-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-velodyne-pointcloud-oru
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, libyaml-cpp-dev, ros-kinetic-angles, ros-kinetic-diagnostic-updater, ros-kinetic-dynamic-reconfigure, ros-kinetic-nodelet, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-sensor-msgs, ros-kinetic-tf, ros-kinetic-velodyne, ros-kinetic-velodyne-driver, ros-kinetic-velodyne-msgs
+Description: Copy of velodyne_pointcloud - Point cloud conversions for Velodyne 3D LIDARs.
