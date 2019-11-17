@@ -1,0 +1,12 @@
+Source: ros-melodic-velodyne-pointcloud-oru
+Section: misc
+Priority: optional
+Maintainer: Daniel Adolfsson <daniel.adolfsson@oru.se>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libyaml-cpp-dev, ros-melodic-angles, ros-melodic-catkin, ros-melodic-diagnostic-updater, ros-melodic-dynamic-reconfigure, ros-melodic-nodelet, ros-melodic-roscpp, ros-melodic-roslaunch, ros-melodic-roslib, ros-melodic-roslint, ros-melodic-rostest, ros-melodic-rosunit, ros-melodic-sensor-msgs, ros-melodic-tf, ros-melodic-tf2-ros, ros-melodic-velodyne-driver, ros-melodic-velodyne-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-velodyne-pointcloud-oru
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, libyaml-cpp-dev, ros-melodic-angles, ros-melodic-diagnostic-updater, ros-melodic-dynamic-reconfigure, ros-melodic-nodelet, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-sensor-msgs, ros-melodic-tf, ros-melodic-velodyne, ros-melodic-velodyne-driver, ros-melodic-velodyne-msgs
+Description: Copy of velodyne_pointcloud - Point cloud conversions for Velodyne 3D LIDARs.
