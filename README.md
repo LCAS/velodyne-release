@@ -1,3 +1,26 @@
+## velodyne_oru (kinetic) - 1.5.6-1
+
+The packages in the `velodyne_oru` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -y --no-web -t kinetic -r kinetic velodyne_oru` on `Wed, 10 Jun 2020 13:10:56 -0000`
+
+The `velodyne_pointcloud_oru` package was released.
+
+Version of package(s) in repository `velodyne_oru`:
+
+- upstream repository: https://github.com/dan11003/velodyne_pointcloud_oru
+- release repository: https://github.com/LCAS/velodyne-release.git
+- rosdistro version: `1.5.5-1`
+- old version: `1.5.5-1`
+- new version: `1.5.6-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.20`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## velodyne_oru (melodic) - 1.5.5-1
 
 The packages in the `velodyne_oru` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -n -t melodic -r melodic velodyne_oru` on `Sun, 17 Nov 2019 10:27:54 -0000`
