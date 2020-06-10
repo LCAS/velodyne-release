@@ -1,6 +1,11 @@
 Change history
 ==============
 
+1.5.6 (2020-06-10)
+------------------
+* added functionallity to unpack pointcloud without filtering non-returns
+* Contributors: dla.adolfsson@gmail.com
+
 1.5.5 (2019-10-30)
 ------------------
 * Update cloud_node_vlp16_hz.test
